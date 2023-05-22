@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(assets/SFProDisplay-Regular.woff),
+        url('fonts/SFProDisplay-Regular.woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'SF Pro Display', sans-serif;
+}
+#background {
+    background-color: black;
+    background-image: url("assets/Asset.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    visibility: visible;
+}
+
+#myContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 260px;
+    padding-left: 55vh;
+}
+  
+.title {
+    margin-bottom: 30px;
+}
+
+.x-large-text {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #ffffff;
+}
+  
+.subtitle {
+    margin-bottom: 30px;
+}
+  
+.small-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+}
+  
+.input {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.input2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+  
+.x-small-text {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ffffff;
+    font-family: 'SF Pro Displays'
+}
+  
+  
+.name,
+.email {
+    width: 320px;
+    height: 50px;
+    background: #000000;
+    border: 2px solid #3d3d3d;
+    border-radius: 16px;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.handle {
+    width: 655px;
+    height: 50px;
+    background: #000000;
+    border: 2px solid #129A14;
+    border-radius: 16px;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px; 
+}
+
+::placeholder {
+    color: #ffffff;
+    font-family: 'SF Pro Displays', sans-serif;
+}
+
+.submitButton {
+    width: 320px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin-top: 35px;
+    font-family: 'SF Pro Displays', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 45px;
+    color: #000000;
+    cursor: pointer;
+}
+
+  /* Input field hover state */
+input.email:hover,
+input.name:hover,
+input.handle:hover {
+    border-color: #ffdf3d;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+  /* Submit button hover state */
+input.submit:hover {
+    background-color: #ffdf3d;
+}
+
+  /* Media Queries */
+@media (max-width: 768px) {
+    .x-large-text {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .small-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .x-small-text {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    
+    .handle,
+    .name,
+    .email,
+    .submit {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+.error {
+    border: 2px solid red;
+}
+
