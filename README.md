@@ -25,7 +25,7 @@ This project was completed as part of the assessment for the Special Offer Inter
 During the assessment, I faced challenges in adjusting the size of texts and forms to match the design provided in Figma. To overcome these challenges, I conducted thorough research to find suitable solutions and best practices. I explored various techniques such as using relative units like media queries, setting appropriate font sizes and line heights, and applying CSS styles to achieve the desired visual appearance. Through research and experimentation, I was able to align the size of texts and forms with the Figma design, ensuring a consistent and visually appealing layout.
 
 ## Future Improvements
-- I could implement more visually appealing and user-friendly error messages within the form or providing feedback through a notification system for the future.
+I could implement more visually appealing and user-friendly error messages within the form or providing feedback through a notification system for the future.
 
 ## Contact Information
 If you have any questions or would like to reach out, feel free to contact me at [rjyeeun@gmail.com]. You can also connect with me on [https://www.linkedin.com/in/yeeun-jung-rachel/].
